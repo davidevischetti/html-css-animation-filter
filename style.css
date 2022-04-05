@@ -68,11 +68,6 @@
     text-decoration: none;
 }
 
-/* .ex-12-top-white {
-    animation: right 2s linear;
-    animation: left 2s linear;
-} */
-
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;

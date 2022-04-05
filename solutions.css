@@ -95,3 +95,70 @@
 }
 
 /* Esercizio 13 */
+.ex-13-button:hover {
+    text-decoration: underline;
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: clock 4s linear;
+}
+
+@keyframes clock {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    25% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    50% {
+        left: calc(100% - 30px);
+        top: calc(100% - 10px);
+    }
+    75% {
+        left: 0px;
+        top: calc(100% - 10px);
+    }
+    95%{
+        left: -20px;
+        top: -10px;
+
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: counterclock 4s linear;
+}
+
+@keyframes counterclock {
+    0% {
+        right: 10%;
+        bottom: -10px;
+    }
+    25% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    50% {
+        right: calc(100% - 30px);
+        bottom: calc(100% - 10px);
+    }
+    75% {
+        right: 0px;
+        bottom: calc(100% - 10px);
+    }
+    95%{
+        right: -20px;
+        bottom: -10px;
+
+    }
+    100% {
+        right: 10%;
+        bottom: -10px;
+    }
+}  

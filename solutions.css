@@ -1,0 +1,27 @@
+.ex-1-square:hover {
+    background-color: red;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+.ex-4-square:hover {
+    filter: opacity(0);
+}
+
+.ex-5-square:hover {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active {
+    margin: 30px;
+    width: 40px;
+    height: 40px;
+}
